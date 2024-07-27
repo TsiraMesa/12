@@ -1,46 +1,85 @@
-let x=87; y=65;
 
-console.log(x+y)
+/* Დაბეჭდეთ რიცხვები 2 დან 8 მდე
 
+for (let i=2; i<8; i++)  {
 
-let student= { firstName:"tsira",
-    lastName:"mesablishvili",
-    age:32,
-    email:"tsiramesa@gmail.com",
-     marks:[12, 16, 15, 22]
-
-}
-console.log(student.firstName)
+console.log(i)}*/
 
 
-let  m=45, n=23
-if (m>n) {
-    console.log (n+m)}
-    else {
-    console.log(n)
-    }
+/*. 5 დან 35 - ის ჩათვლით დაბეჭდეთ ყოველი მეოთხე რიცხვი (უნდა დაიბეჭდოს 5,9,13…)
+
+let a;
+for (a=5; a<=35; a+=4) {
+    console.log(a) 
+
+}*/
+
+/* Გამოაცხადეთ ობიექტი person რომელსაც აქვს firstName, lastName, 
+//age და დაბეჭდეთ person-სრული სახელი ( სახელი და გვარი)
+
+let person = {
+    firstname: "tsira",
+    lastname: "mesablishvili",
+    age : 12 }
+   {
+    console.log(person.firstname, person.lastname)
+ }*/
 
 
+    /*5. დაბეჭდეთ მეოთხე დავალებაში გამოცხადებული პერსონის თითოეული property value 
+   
 
-let students= {firstName:"tsira"}
-if (firstName="tsira")
-{console.log(student.firstName, "shine and rise")}
-
-
-
-let salary=1800, bonus=1800*10/100
-if (salary=>2000)
-    {
-    console.log(bonus=0)}
-    else {console.log(bonus)}
-  
-
-let a=23, b=23-23/2, c=a+b;
-console.log(c)
-
-
-
-let phone= ["Iphone", "samsung", "pixel", "xiaomi"];
-console.log(phone [0], phone [1],phone [2],phone [3])
-
+        let person = {
+            firstname: "tsira",
+            lastname: "mesablishvili",
+            age : 12 }
+        {
     
+            console.log(person.firstname, person.lastname, person.age)
+         }
+*/
+  /*დაწერეთ მასივი fruits ელემენტებით
+  // ["Apple", "Banana", "Orange"]; დაბეჭდეთ მასივის თითოეული წევრი.
+
+let fruits = ["Apple", "Banana", "Orange"]
+{
+    console.log(fruits [0])
+    console.log(fruits [1])
+    console.log(fruits [2])
+    
+    
+}*/
+
+/*დაამატეთ fruits მასივის თავში Grapes და ბოლოში  Pineapples დაბეჭდეთ fruits
+
+let fruits = ["Apple", "Banana", "Orange"]
+fruits.unshift("grapes")
+fruits.push ("Pineapples") 
+
+console.log (fruits[0])
+console.log (fruits[1])
+console.log (fruits[2])
+console.log (fruits[3])
+console.log (fruits[4]) ასევე შეიძლება ასე console.log(fruits)
+ */
+
+/*დაბეჭდეთ 1 დან 34 მდე რიცხვების ჯამი
+let a;
+for ( let a=1; a<34; a++ ) {
+console.log (a*(a+1)/2)
+
+}*/
+
+/*დაბეჭდეთ 3 დან 8 მდე რიცხვების ნამრავლი
+
+
+for (let i=3; i<8; i++)
+     {
+        console.log(i*(i+1))}  */
+
+
+
+
+
+
+
