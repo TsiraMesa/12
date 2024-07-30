@@ -122,4 +122,4 @@ function fullscores (scores) {
    
    return a;
  }
-//ggdd
+//ggdll
