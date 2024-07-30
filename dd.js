@@ -1,87 +1,116 @@
 
-/* Დაბეჭდეთ რიცხვები 2 დან 8 მდე
 
-for (let i=2; i<8; i++)  {
+ /* დაწერეთ ფუნქცია რომელსაც გადასცემ ორ რიცხვს (m,n) და
+ // დააბრუნებს რომელიც მეტია იმ რიცხვს , თუ რიცხვები ტოლია დააბრუნებს 0 -ს
+ 
+ function numbers(m,n){
+   if (m>n) 
+   return (m)
+else if (m=n)
+   return (0)}
+console.log(numbers(9,9))*/
+ 
 
-console.log(i)}*/
+/*2. დაწერეთ ფუნქცია რომელსაც გადასცემთ ორ ცვლადს(რიცხვს), დააბრუნეთ რიცხვების ჯამი
 
-
-/*. 5 დან 35 - ის ჩათვლით დაბეჭდეთ ყოველი მეოთხე რიცხვი (უნდა დაიბეჭდოს 5,9,13…)
-
-let a;
-for (a=5; a<=35; a+=4) {
-    console.log(a) 
-
-}*/
-
-/* Გამოაცხადეთ ობიექტი person რომელსაც აქვს firstName, lastName, 
-//age და დაბეჭდეთ person-სრული სახელი ( სახელი და გვარი)
-
-let person = {
-    firstname: "tsira",
-    lastname: "mesablishvili",
-    age : 12 }
-   {
-    console.log(person.firstname, person.lastname)
- }*/
+function numbers (a,b){
+   return (a+b)
+} console.log(numbers(10,20))*/
 
 
-    /*5. დაბეჭდეთ მეოთხე დავალებაში გამოცხადებული პერსონის თითოეული property value 
+/* დაწერეთ ფუნქცია რომელიც დააბეჭდავს თქვენ სახელს და გვარს ( ფუნქციას არ აქვს პარამეტრი)
+
+function sum (firstName, lastName)
+ {
+   console.log(firstName, lastName)
+} sum("tsira", "mesablishvili") */
+
+
+/*დაწერეთ ფუნქცია ორი პარამეტრით : firstname და lastname დააბრუნეთ სრული სახელი და დაბეჭდეთ
+ //( ფუნქცია აბრუნებს სრულ სახელს და ფუნქციის გარეთ ბეჭდა
+
+ let person = {
+   firstName: "lela"
+   lastname: "gabelia"
+   fullname: function() { 
+       
+       console.log(this.firstName,  this.lastName)
+       return this.fullname
+   }
+}
+console.log(person.fullname)*/
+
+/*function sum (firstname, lastname){
+var fullname=sum;
+return fullname
+}
+  console.log(sum(ana,mesablishvili)) */
+
+
+/*Დაწერეთ ფუნქცია რომელსაც გადასცემთ ერთ რიცხვს (n) 
+//და ფუნქციამ უნდა დააბრუნოს 1 დან ამ რიცხვამდე  (n-მდე) რიცხვების ნამრავლი
+ //( ანუ თუ რიცხვი არის 3 ფუნქციამ უნდა დააბრუნოს 1*2*3 -ის მნიშვნელობა, დაგჭირდებათ 
+   //ახალი ცვლადის გამოცხადება ფუნქციის შიგნით რომელსაც მიანიჭებთ ნამრავლის მნიშვნელობას. 
+   //Პ.ს. გამოიყენეთ თქვენთვის სასურველი ციკლი)
+  
+      
+
+   function number (n){
+      let a=1;
+  for(i=1;i<6;i++){
+   a *= n;
+
+  }
+return a
+   }
+  console.log(number(6))  */
+    
    
 
-        let person = {
-            firstname: "tsira",
-            lastname: "mesablishvili",
-            age : 12 }
-        {
-    
-            console.log(person.firstname, person.lastname, person.age)
-         }
-*/
-  /*დაწერეთ მასივი fruits ელემენტებით
-  // ["Apple", "Banana", "Orange"]; დაბეჭდეთ მასივის თითოეული წევრი.
-
-let fruits = ["Apple", "Banana", "Orange"]
-{
-    console.log(fruits [0])
-    console.log(fruits [1])
-    console.log(fruits [2])
-    
-    
-}*/
-
-/*დაამატეთ fruits მასივის თავში Grapes და ბოლოში  Pineapples დაბეჭდეთ fruits
-
-let fruits = ["Apple", "Banana", "Orange"]
-fruits.unshift("grapes")
-fruits.push ("Pineapples") 
-
-console.log (fruits[0])
-console.log (fruits[1])
-console.log (fruits[2])
-console.log (fruits[3])
-console.log (fruits[4]) ასევე შეიძლება ასე console.log(fruits)
- */
-
-/*დაბეჭდეთ 1 დან 34 მდე რიცხვების ჯამი
-let a;
-for ( let a=1; a<34; a++ ) {
-console.log (a*(a+1)/2)
-
-}*/
-
-/*დაბეჭდეთ 3 დან 8 მდე რიცხვების ნამრავლი
 
 
-for (let i=3; i<8; i++)
-     {
-        console.log(i*(i+1))}  */
+/*Შემდეგი დავალებებისთვის გამოიყენეთ :ობიექტი student - 
+//რომელსაც აქვს შემდეგი properties: firstName, lastName, age, scores 
+//(scores არის შემდეგი რიცხვების მასივი: 4,7,5,3,2) და მეთოდი fullName 
+//რომელიც აბრუნებს სტუდენტის სრულ სახელს 
+//( ობიექტი შეიცავს მეთოდს, ცალკე ფუნქციად არ უნდა დაწეროთ ) */
+   
+/*6. დაბეჭდეთ  სტუდენტის სრული სახელი (სახელი+გვარი-  გამოიყენეთ student ობიექტის მეთოდი)
 
-        
-        //ddd
+let student = {
+   firstName: "ana",
+   lastName: "kupatadze",
+   age: 30,
+   scores : [4,7,5,3,2],
+   fullName: function() {
+   console.log (this.firstName, this.lastName)
+}
+}
+student.fullName () */
+
+/*დაბეჭდეთ სტუდენტის სახელი და ასაკი
+
+let student = {
+   firstName: "ana",
+   lastName: "kupatadze",
+   age: 30,
+   scores : [4,7,5,3,2],
+   fullName: function() {
+   console.log (this.firstName, this.lastName)
+}
+}
+console.log(student.firstName, student.age)*/
 
 
 
+7.// Დაწერეთ ფუნქცია რომელსაც გადასცემთ სტუდენტის ქულებს ( scores) და ფუნქცია დააბრუნებს  ქულების ჯამს
 
-
-
+function fullscores (scores) {
+   let a=0;
+   for (i=2; i<7; i++){
+      a+=a
+   }
+   
+   return a;
+ }
+//gg
