@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-=======
- 1
-/* Დაბეჭდეთ რიცხვები 2 დან 8 მდე
-
-for (let i=2; i<8; i++)  {
-
-console.log(i)}*/
->>>>>>> 41b4d5698b9b4d28690ad1a1624bf5c13fa0d7e0
 
 
  /* დაწერეთ ფუნქცია რომელსაც გადასცემ ორ რიცხვს (m,n) და
@@ -112,7 +103,7 @@ console.log(student.firstName, student.age)*/
 
 
 
-7.// Დაწერეთ ფუნქცია რომელსაც გადასცემთ სტუდენტის ქულებს ( scores) და ფუნქცია დააბრუნებს  ქულების ჯამს
+7./* Დაწერეთ ფუნქცია რომელსაც გადასცემთ სტუდენტის ქულებს ( scores) და ფუნქცია დააბრუნებს  ქულების ჯამს
 
 function fullscores (scores) {
    let a=0;
@@ -121,5 +112,5 @@ function fullscores (scores) {
    }
    
    return a;
- }
-//ggdll
+ }*/
+//ggdkkkkkkgggg
